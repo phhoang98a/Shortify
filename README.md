@@ -24,8 +24,7 @@ Example: docker compose up --build --scale spring-boot-server=3
 https://github.com/phhoang98a/Shortify/assets/34488386/296c3799-b813-4714-a2cd-ab5b8d18dda6
 
 ## Unique Id and Hash generation
-You can read about [Twitter snowflake](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake.html) and the blog to understand the Id generator I used in this application 
-[Generating unique IDs in a distributed environment at high scale.](https://www.callicoder.com/distributed-unique-id-sequence-number-generator/)
+You can read about [Twitter snowflake](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake.html) and this blog [(Generating unique IDs in a distributed environment at high scale)](https://www.callicoder.com/distributed-unique-id-sequence-number-generator/) to understand the Id generator I used in this application 
 
 I use the base 62 convention which is referred to in System Design Interview by Alex Xu to convert Id to shortURL. 
 
